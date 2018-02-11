@@ -713,7 +713,7 @@ a {
   display: flex;
   flex-direction: column;
 }
-.product_column {
+.column {
   display: flex;
 }
 .row-sm {
@@ -772,15 +772,20 @@ a {
   color: var(--color-theme);
   font-family: 'Play', sans-serif;
 }
-.catalog_title {
+.group_title {
   padding-top: 2%;
   padding-left: 5%;
 
 }
-.catalog_title p {
+.group_title p {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
   font-family: 'Play', sans-serif;
   line-height: 1.7;
+}
+.about_bg {
+  background: url("../img/about_block.jpg") no-repeat top center;
+  background-size: cover;
+
 }
