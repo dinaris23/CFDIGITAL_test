@@ -452,10 +452,13 @@ template {
 }
 body {
     color: var(--color-black);
-    /*font-family: 'Play', sans-serif;*/
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-}
+    overflow-x:hidden;
+    overflow-y:scroll;
+    max-width:100%;
+  }
+
 a {
     text-decoration: none;
 }
@@ -911,9 +914,6 @@ a {
 .catalog .row-b {
   width: 100%;
 }
-.row-sm {
-  width: 50%;
-}
 .slide h2 {
   font-size: 36px;
 }
@@ -930,6 +930,9 @@ a {
 /*========440px========*/
 
 @media (max-width: 440px){
+  .header_menu, .header_timing {
+    display: none;
+  }
   .column {
     flex-direction: column-reverse;
   }
@@ -967,6 +970,9 @@ a {
     display: none;
   }
   .catalog .column:last-child {
+    display: none;
+  }
+  .header_menu, .header_timing {
     display: none;
   }
 }
