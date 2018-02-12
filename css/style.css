@@ -949,7 +949,7 @@ a {
     display: none;
   }
   .vertical_nav {
-    width: 100vw;
+    width: 100%;
     padding: 0;
   }
   .vertical_menu {
@@ -977,5 +977,8 @@ a {
   }
   .header_menu, .header_timing {
     display: none;
+  }
+  .rm {
+    display: block;
   }
 }
