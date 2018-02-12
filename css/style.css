@@ -790,3 +790,47 @@ a {
   background-size: cover;
 
 }
+.brands_slider  {
+  height: 100%;
+}
+.brands_slide {
+  background: var(--color-blue);
+  height: 100%;
+}
+.logo_col {
+  display: flex;
+  justify-content: space-around;
+}
+.logo_col img {
+  object-fit: contain;
+}
+.brands {
+  height: 50vh;
+}
+.logo_row {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-around;
+  padding: 2%;
+}
+.next_arrow, .prev_arrow {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  z-index: 5;
+  color: #ffffff;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.next_arrow {
+  background: url('../img/right_arrow.png') no-repeat;
+  top: 50%;
+  right: 0;
+}
+.prev_arrow {
+  background: url('../img/left_arrow.png') no-repeat;
+  top: 50%;
+  left: 0;
+}

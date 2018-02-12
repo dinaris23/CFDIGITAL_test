@@ -196,6 +196,65 @@
                 <div class="row-b about_bg"></div>
             </div>
         </section>
+        <section class="brands">
+            <div class="column">
+                <div class="row-b">
+                    <div class="brands_slider">
+                        <div class="brands_slide">
+                            <div class="logo_row">
+                                <div class="logo_col">
+                                    <img src="img/brands_logo_1.png" alt="logo">
+                                    <img src="img/brands_logo_2.png" alt="logo">
+                                    <img src="img/brands_logo_3.png" alt="logo">
+                                </div>
+                                <div class="logo_col">
+                                    <img src="img/brands_logo_1.png" alt="logo">
+                                    <img src="img/brands_logo_2.png" alt="logo">
+                                    <img src="img/brands_logo_3.png" alt="logo">
+                                </div>
+                                <div class="logo_col">
+                                    <img src="img/brands_logo_1.png" alt="logo">
+                                    <img src="img/brands_logo_2.png" alt="logo">
+                                    <img src="img/brands_logo_3.png" alt="logo">
+                                </div>
+                            </div>
+                            </div>
+                        <div class="brands_slide">
+                            <div class="logo_row">
+                            <div class="logo_col">
+                                <img src="img/brands_logo_1.png" alt="logo">
+                                <img src="img/brands_logo_2.png" alt="logo">
+                                <img src="img/brands_logo_3.png" alt="logo">
+                            </div>
+                            <div class="logo_col">
+                                <img src="img/brands_logo_1.png" alt="logo">
+                                <img src="img/brands_logo_2.png" alt="logo">
+                                <img src="img/brands_logo_3.png" alt="logo">
+                            </div>
+                            <div class="logo_col">
+                                <img src="img/brands_logo_1.png" alt="logo">
+                                <img src="img/brands_logo_2.png" alt="logo">
+                                <img src="img/brands_logo_3.png" alt="logo">
+                            </div>
+                        </div>
+                        <i class="prev_arrow"></i>
+                        <i class="next_arrow"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-b">
+                    <div class="group_title">
+                        <h2 class="section_title">Производители</h2>
+                        <div class="link_line">
+                            <a class="more-link" href="#">Подробнее<span class="line"></span></a>
+                        </div>
+                        <p>Благодаря широкой линейке предоставляемой продукции от ведущих компаний-производителей, Вы имеете возможность заказать смесители или целые серии смесителей всех вышеназванных групп, что поможет оформить Ваш интерьер в едином, наиболее предпочтительном для Вас стиле. </p>
+                    </div>
+                </div>
+        </section>
+        <section class="text">
+            
+        </section>
     </main>
 </div>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -213,6 +272,20 @@
  var thumb = $(header_slider.$slides[i]).data();
   return '<a class="custom-dots">' +0+(i+1)+ '</a>';
  },
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+        $('.brands_slider').slick({
+            dots: false,
+            arrows: true,
+            autoplay: true,
+            nextArrow: '<i class="next_arrow"></i>',
+            prevArrow: '<i class="prev_arrow"></i>',
+            autoplaySpeed: 7000,
+            pauseOnHover: true,
+            adaptiveHeight: false,
             });
         });
     </script>
