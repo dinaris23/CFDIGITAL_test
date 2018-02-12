@@ -454,9 +454,6 @@ body {
     color: var(--color-black);
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    overflow-x:hidden;
-    overflow-y:scroll;
-    max-width:100%;
   }
 
 a {
@@ -465,6 +462,8 @@ a {
 .container {
     width: 100%;
     max-width: 100%;
+    overflow-x:hidden;
+    max-width:100%;
 }
 .header {
     position: relative;
@@ -914,6 +913,9 @@ a {
 .catalog .row-b {
   width: 100%;
 }
+.rm {
+  display: none;
+}
 .slide h2 {
   font-size: 36px;
 }
@@ -925,6 +927,7 @@ a {
   .header_menu, .header_timing {
     display: none;
   }
+  
 }
 
 /*========440px========*/
