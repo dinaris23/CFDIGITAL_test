@@ -902,6 +902,7 @@ a {
 .brands {
   height: 100%;
 }
+
 /*============= Media queries =============*/
 
 @media (max-width: 992px) { 
@@ -1010,5 +1011,4 @@ a {
   .rm {
     display: block;
   }
-
 }
